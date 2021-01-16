@@ -1,11 +1,11 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
-  "proxy":"http://localhost:4200/",
+  "proxy":"http://localhost:3000/",
   "scripts": {
     "ng": "ng",
     "heroku-postbuild": "ng build --prod",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
